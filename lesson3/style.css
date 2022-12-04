@@ -1,4 +1,27 @@
-
+body {
+  background-color: #dfeef0;
+}
+h1,
+h2,
+h3 {
+  color: #6a8d8f;
+}
 h1 {
-  color: blue;
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+li {
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+hr {
+  border-top: 5px dashed #4c6566;
+  margin-top: 16px;
+  width: 75%;
+  margin-left: 0;
 }

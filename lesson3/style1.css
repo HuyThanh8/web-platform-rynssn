@@ -1,0 +1,23 @@
+th,
+td {
+  border: 1px solid #6a8d8f;
+  margin: none;
+}
+th {
+  color: white;
+  background-color: red;
+  padding: 6px;
+}
+td {
+  color: white;
+  background-color: rgb(65, 65, 102);
+  padding: 12px;
+}
+.caption1 {
+  caption-side: bottom;
+}
+.yellow {
+  padding: 8px;
+  text-align: center;
+  background-color: rgb(224, 224, 16);
+}
