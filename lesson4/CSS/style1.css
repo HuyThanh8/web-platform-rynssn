@@ -1,0 +1,59 @@
+/* Pic1 */
+.container {
+  width: 500px;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 100px;
+}
+.div {
+  border: 2px solid;
+  height: 250px;
+  width: 80px;
+  margin: 10px;
+  text-align: center;
+}
+/* pic2 */
+.container1 {
+  width: 500px;
+  box-sizing: border-box;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.box {
+  border: 2px solid;
+  text-align: center;
+  background-color: white;
+}
+.box1 {
+  width: 150px;
+  height: 120px;
+  position: absolute;
+  top: 8px;
+}
+.box2 {
+  width: 140px;
+  height: 160px;
+  position: absolute;
+  top: 80px;
+  left: 110px;
+}
+.box3 {
+  width: 320px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  left: 15px;
+}
+.box4 {
+  width: 80px;
+  height: 260px;
+  position: absolute;
+  top: 0;
+  left: 320px;
+}
