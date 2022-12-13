@@ -14,13 +14,13 @@ body {
   font-family: 'Bold' sans-serif;
 }
 .logo {
-  background-color: rgba(43, 35, 35, 0.904);
+  background-color: #1f2937;
   color: blue;
   font-size: 20px;
   padding: 16px 10px;
 }
 .menu-left {
-  background-color: rgba(43, 35, 35, 0.904);
+  background-color: #1f2937;
   color: white;
   display: flex;
   flex-direction: column;
@@ -34,9 +34,67 @@ ul {
 ul,
 li {
   padding: 6px;
+  color: #ddd;
+}
+ul,
+li:hover {
+  color: #fff;
+}
+ul :first-of-type {
+  background-color: #111827;
 }
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  box-shadow: 4px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.header input {
+  height: 28px;
+  width: 280px;
+  border: none;
+  margin: 0 8px;
+}
+.header input:focus {
+  outline: none;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.header-right svg {
+  margin: 12px;
+}
+.profile {
+  display: flex;
+  height: 48px;
+  background-color: #374151;
+  padding: 10px;
+}
+.profile p {
+  margin: 0;
+}
+.content {
+  padding: 16px;
+  background-color: #f3f4f6;
+}
+.content h2 {
+  margin: 0;
+  font: sans-serif;
+}
+.box {
+  width: 100%;
+  height: 320px;
+  border: 2px dashed #ddd;
+  border-radius: 6px;
+  overflow: scroll;
+}
+.box p {
+  padding-left: 10px;
 }
