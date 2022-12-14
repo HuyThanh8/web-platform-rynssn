@@ -53,6 +53,9 @@ main .product{
 .product .cash{
   display: flex;
 }
+.product hr{
+  border-bottom: none;
+}
 @media screen and (max-width: 300px){
   main{
     display: flex;
